@@ -1,0 +1,109 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0 px;
+}
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botonera {
+    padding: 30px 20px;
+    height: 30px;
+    background-color: darkslateblue;
+}
+
+.seccion {
+    padding: 30px;
+}
+
+ul {
+    padding-top: 10px;
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:darkorchid;
+    font-size: 2em;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.botonera a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botonera a:hover {
+    background-color: rgb(25, 0, 48);
+}
+.botonera a:active {
+    background-color: fuchsia;
+}
+
+#cabecera {
+    width: 100%;
+    height: 600px;
+    background-image: url("img/astro\ 3.png");
+    background-size: 100% auto;
+    background-color: blueviolet;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 12px;
+}
+
+#abajo {
+    background-color: rgb(188, 154, 255);
+    padding: 0px;
+}
+
+.bienvenida {
+    padding: 20px 10px 10px 10px;
+    height: 150px;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contacto {
+    padding: 20px;
+}
+.section {
+    padding: 0px;
+}
+
+#porfolio {
+    padding: 0px;
+}
