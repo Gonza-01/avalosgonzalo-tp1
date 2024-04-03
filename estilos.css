@@ -25,7 +25,7 @@ h1 {
 }
 
 .seccion {
-    padding: 30px;
+    padding: 40px;
 }
 
 ul {
@@ -44,6 +44,7 @@ h3 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blueviolet;
+    padding-left: 20px;
 }
 
 nav ul {
@@ -83,9 +84,11 @@ p {
     padding-top: 12px;
 }
 
-#abajo {
+footer {
     background-color: rgb(188, 154, 255);
-    padding: 0px;
+    height: 150px;
+    width: auto;
+    padding-left: 10px;
 }
 
 .bienvenida {
@@ -101,9 +104,22 @@ li {
     padding: 20px;
 }
 .section {
-    padding: 0px;
+    padding-top: 20px;
 }
 
 #porfolio {
     padding: 0px;
+}
+footer p {
+    padding: 20px;
+}
+
+section ul {
+    padding-left: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
 }
