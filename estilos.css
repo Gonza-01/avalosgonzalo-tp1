@@ -11,12 +11,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 main {
     width: auto;
     margin: 0px;
-    padding: 0 px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,11 +72,6 @@ h5 {
     justify-content: space-around;
 }
 
-.seccion {
-    padding: 0;
-    max-width: 900px;
-}
-
 ul {
     padding-top: 30px;
     padding-left: 40px;
@@ -103,10 +99,9 @@ nav ul li {
 
 div ul li {
     color: white;
-    max-width: 250px;
+    max-width: 550px;
     font-size: 16px;
     padding-top: 16px;
-    margin-left: 80px;
     list-style-type: circle;
 }
 section ul li {
@@ -119,7 +114,7 @@ section ul li {
 section ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 800px;
 }
 
@@ -140,7 +135,13 @@ section ul {
     justify-content:center;
     align-items: center;
     height: 510px;
-    margin-left: 80px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.presentacion {
+    height: 500px;
+    padding: 70px 20px 0px 70px;
 }
 
 #cabecera {
@@ -165,10 +166,12 @@ li {
 #datos {
     display: flex;
     justify-content: center;
-    align-items:first baseline;
-    height: 250px;
+    align-items: center;
+    width: auto;
+    flex-direction: column;
+    height: auto;
     background: rgba(62, 28, 90, 0.6);
-    padding-top: 18px;
+    padding-bottom: 82px;
 }
 
 .parrafo {
@@ -179,43 +182,44 @@ li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-size: 17px;
-}
-
-.presentacion {
-    height: 500px;
-    padding: 70px 20px 0px 70px;
+    word-spacing: 1px;
 }
 
 .habilidades {
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: start;
-    height: 460px;
-    background: rgba(62, 28, 90, 0.6);
+    width: 100%;
+    padding-top: 40px;
+    height: 620px;
 }
 
 .subtitulo {
-    font-size: 40px;
+    padding-top: 50px;
+    font-size: 35px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:yellow;
-    padding-top: 152px;
-}
-
-.secciondos {
-    max-width: 800px;
 }
 
 #porfolio {
     display: flex;
     justify-content: center;
-    height: 600px;
+    align-items:first baseline;
+    width: 100%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.2);
-    padding-top: 30px;
+    padding-top: 36px;
+}
+
+.galeria {
+    max-width: 850px;
+    height: 100%;
+    padding-bottom: 40px;
 }
 .subpor {
-    color: yellow;
-    padding: 100px
+    color: white;
+    padding-right: 60px;
 }
 footer p {
     padding: 20px;
@@ -225,44 +229,46 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     height: 600px;
-    padding: 20px;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.contacto {
+    height: 100px;
+    width: 900px;
 }
 
 .maspro {
     font-size: 24px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    padding-top: 20px;
     padding-right: 40px;
-}
-
-.email {
-    display: flex;
-    justify-content: left;
-    height: 400px;
-    padding-left: 100px;
-    padding-top: 40px;
-}
-
-#contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    height: 200px;
+    word-spacing: 2px;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: black;
+    align-items: flex-end;
     height: 150px;
     width: auto;
     padding-left: 10px;
+    padding-bottom: 30px;
 }
 
 .pfooter {
     padding-top: 50px;
+    font-size: 20px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 3px;
 }
